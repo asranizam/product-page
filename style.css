@@ -1,0 +1,224 @@
+/* 
+#navbar {
+background-color: lavender;
+position: sticky;
+padding: 10px;
+height: 50px;
+}
+#navbar a {
+    color: black;
+    float: right;
+    text-shadow: 1px 1px blue;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: -12px;
+    text-decoration: none;
+}
+*/
+.navbar {
+    position: sticky;
+    top: 0%;
+z-index: 1;
+}
+.navbar .nav-item .nav-link {
+color: darkblue;
+font-weight: 800;
+font-style: italic;
+}
+ .dropdown-menu .dropdown-item {
+    color: darkgoldenrod;
+    font-weight: 700;
+    font-style: italic; 
+}
+ .row {
+    margin-right: auto;
+}
+/* purse section*/
+.purse .card .card-img-top {
+width: 100%;
+height: 150px;
+
+}
+.purse .card p {
+font-size: 13px;
+}
+.purse  h1 {
+    text-align: center;
+    color: brown;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 3rem;
+}
+.purse .card {
+    margin-top: 30px;
+    outline: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+.purse .card h3 {
+color: brown;
+font-size: 19px;
+}
+
+.carousel-inner .carousel-item img{
+    height: 90vh;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+/*wallet section*/
+.wallet .card h4 {
+    font-size: medium;
+    color: darkblue;
+}
+.wallet .row .card h3 {
+    color: brown;
+font-size: 19px;
+}
+.wallet .row .card  p {
+    font-size: 10px;
+
+}
+.wallet .card .card-img-top{
+    width: 100%;
+    height: 200px;
+}
+.wallet  h1 {
+    text-align: center;
+    color: brown;
+margin-top: 30px;
+}
+.wallet .card {
+    outline: auto;
+    margin-right: auto;
+margin-left: auto;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+/*carousel section*/
+.carousel-inner .carousel-caption .embroidery {
+    font-size: 25px;
+    color: saddlebrown;
+    font-weight: 600;
+}
+.carousel-inner .carousel-caption .printed {
+    font-size: 25px;
+    color: black;
+    font-weight: 800;
+}
+.carousel-inner .carousel-caption p {
+    font-style: italic;
+    font-size: x-large;
+    color: darkblue;
+}
+/*schoolbag*/
+.schoolbag .row .card .card-img-top {
+    width: 100%;
+    height: 250px;
+} 
+.schoolbag .row .card .card-body p{
+    font-size: 13px;
+}
+.schoolbag .row .card {
+    margin-left: 20px;
+    margin-right: auto;
+margin-top: 30px;
+margin-bottom: 30px;
+outline: auto;
+}
+.schoolbag h1 {
+    text-align: center;
+    color: brown;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 3rem;
+}
+.schoolbag .card h4 {
+    font-size: medium;
+    color: darkblue;
+}
+/*outing bag*/
+.outingbag .row .card .card-img-top {
+    width: 100%;
+    height: 250px;
+}
+.outingbag .row .card .card-body p{
+    font-size: 13px;
+}
+.outingbag .row .card {
+    margin-left: 20px;
+    margin-right: auto;
+margin-top: 30px;
+margin-bottom: 30px;
+outline: auto;
+}
+.outingbag  .card h4 {
+    font-size: medium;
+    color: darkblue;
+}
+.outingbag h1 {
+    text-align: center;
+    color: brown;
+ 
+    margin-top: 20px;
+    font-size: 3rem;
+}
+footer .foot {
+    display: flex;
+    margin-left:30px; 
+ 
+}
+footer .foot .pro {
+font-size: 20px;
+margin-left: 30px;
+margin-bottom: 15px;
+}
+footer .foot .pro ul{
+font-size: small;
+list-style: none;
+margin-top: 20px;
+}
+footer .foot .foot1 {
+    margin-right: 100px;
+} 
+footer .right .icons{
+
+display: flex;
+    gap: 30px;
+    margin-left: 30px;
+
+}
+footer .right {
+    float: right;
+    margin-top: -250px;
+    margin-right: 200px;
+ 
+}
+footer .right .icons .icon1 {
+  color: white;
+
+
+}
+footer .right .icons .icon2 {
+    background-color: white;
+    color:  gray;
+
+}
+footer .right .icons .icon3 
+{
+    color: rgb(80, 175, 207);
+}
+#modal {
+float: right;
+margin-top: -160px;
+margin-right: 200px;
+background-color: navy;
+}
+#pwd {
+    width: 100%;
+
+}
+
+.modal-body .form-group .form-check-label #remember{
+    margin-left: 110px;
+}
